@@ -29,20 +29,23 @@ This project demonstrates **industry-standard backend structure**, proper separa
 
 
 2️⃣ Create & activate virtual environment
+```bash
 python -m venv myvenv
 myvenv\Scripts\activate
-
+```
 3️⃣ Install dependencies
+```bash
 pip install fastapi uvicorn
 
-
+```
 
 This file acts as a lightweight datastore for storing patient records.
 
 5️⃣ Run the application
+```bash
 python -m uvicorn app.main:app --reload
 
-
+```
 Swagger UI: http://127.0.0.1:8000/docs
 
 Root endpoint: http://127.0.0.1:8000/
