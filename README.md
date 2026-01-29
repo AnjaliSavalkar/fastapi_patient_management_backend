@@ -15,6 +15,37 @@ This project demonstrates **industry-standard backend structure**, proper separa
 - Interactive API documentation using **Swagger UI**
 
 ---
+## 🛠️ Tech Stack
+
+- **FastAPI** – Backend framework  
+- **Pydantic** – Data validation  
+- **Uvicorn** – ASGI server  
+- **Python 3.10+**  
+
+---
+
+## ⚙️ Setup & Run Instructions
+
+
+
+2️⃣ Create & activate virtual environment
+python -m venv myvenv
+myvenv\Scripts\activate
+
+3️⃣ Install dependencies
+pip install fastapi uvicorn
+
+
+
+This file acts as a lightweight datastore for storing patient records.
+
+5️⃣ Run the application
+python -m uvicorn app.main:app --reload
+
+
+Swagger UI: http://127.0.0.1:8000/docs
+
+Root endpoint: http://127.0.0.1:8000/
 
 
 ## 📁 Why This Folder Structure?
